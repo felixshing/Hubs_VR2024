@@ -5,13 +5,13 @@ This repository contains code and survey used in our IEEE VR '24 paper "Understa
 ## Repo Structure
 ```
 code/
-+-- disruption.py           # Sec. 8: Network Disruptions
-+-- plot_paper.py           # Backbond of plotting results
-+-- ovr_plot.py             # Get data from OVR Metrics Tool and plot the results
-+-- wireshark_plot.py       # Plot network trace from Wireshark
-+-- E2Elatency              # Sec. 7: End-to-end Latency
+    +-- headset_hubs_zoom.py     # Analysis of headset users' experience on Hubs and Zoom
+    +-- pc_hubs_zoom.py          # Analysis of PC users' experience on Hubs and Zoom
+    +-- server.py                # Analysis of server system performance
+    +-- plot_helper.py           # Helper function for plotting
+    +-- util.py                  # Helper functions for getting survey results and significance tests
 survey/
-    +-- IEEE_VR_2024_Survey.pdf       # Survey
+    +-- IEEE_VR_2024_Survey.pdf  # Survey
 ```
 
 ## Personal Homepage

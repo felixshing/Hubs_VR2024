@@ -1,16 +1,11 @@
 # @Time    : 5/15/22 3:00 PM
 # @Author  : Ruizhi Cheng
-# @FileName: server_resource_plot.py
+# @FileName: server_resource.py
 # @Email   : rcheng4@gmu.edu
 
 
-#This program is used to plot the metrics collected by OVR metrics tool.
-#To get the metrics file, you need to enable the "Record all captured metrics to csv files" button in the OVR metrics too .
-#After you quit the app, you will get the metrics file. Then you can use this program to extract and plot the metrics.
-#BTW, I recommend you also enable the "Enable Persistent Overlay" button and choose "ADVANCED" in the Quick-set Enabled Stats.
-#So you can observe the metrics during your experiment.
 import matplotlib.pyplot as plt
-from plot_paper import plot_trace
+from plot_helper import plot_trace
 
 import pandas as pd
 import os

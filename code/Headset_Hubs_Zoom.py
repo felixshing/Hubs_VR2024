@@ -61,7 +61,6 @@ def plot_audio(ax1,flag):
 def plot_presence(ax1,flag):
     Hubs = get_data_weak_strong(FILENAME, 'Q7')
     Zoom = get_data_weak_strong(FILENAME, 'Q8')
-    Hubs = [4, 5, 3, 4, 5, 3, 3, 3, 5, 4, 3, 3, 4, 4, 3, 5, 4]
     data = [Hubs, Zoom]
     label = ['Hubs', 'Zoom']
     print(Hubs)
@@ -77,7 +76,6 @@ def plot_presence(ax1,flag):
 def plot_copresence(ax1,flag):
     Hubs = get_data_weak_strong(FILENAME, 'Q9')
     Zoom = get_data_weak_strong(FILENAME, 'Q10')
-    Hubs = [ 3,5,5,3,5,3,4,4,5,5,5,4,5,4,3,5,3 ]
     data = [Hubs, Zoom]
     label = ['Hubs', 'Zoom']
     paired_data(Hubs, Zoom)
@@ -91,7 +89,6 @@ def plot_copresence(ax1,flag):
 def plot_social_interaction(ax1,flag):
     Hubs = get_data_interactive(FILENAME, 'Q17')
     Zoom = get_data_interactive(FILENAME, 'Q18')
-    Hubs = [ 3,5,4,3,4,3,3,4,5,4,4,3,5,3,3,5,2 ]
     data = [Hubs, Zoom]
     label = ['Hubs', 'Zoom']
     paired_data(Hubs, Zoom)
