@@ -4,7 +4,6 @@
 # @Email   : rcheng4@gmu.edu
 
 import matplotlib.pyplot as plt
-import argparse
 import pandas as pd
 from util import get_data_bad_good,paired_data,get_data_weak_strong,get_data_interactive
 import numpy as np,scipy.stats as st
